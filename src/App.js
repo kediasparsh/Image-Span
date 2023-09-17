@@ -22,6 +22,7 @@ function App() {
   const handleSubmit = () => {
     setIsSubmitted(true);
     const declaration = document.styleSheets[1].cssRules[2].style;
+    console.log(declaration);
     const setProp1 = declaration.setProperty('grid-row', `span ${rows}`);
     const setProp2 = declaration.setProperty('grid-column', `span ${cols}`);
   };
