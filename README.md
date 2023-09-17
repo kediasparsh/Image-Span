@@ -11,6 +11,7 @@ and positions the image according to the input.
 - Application can be scaled to incorporate different grid sizes according to the overall need.
 
 
-## Deployment
+## Installation
 
-Image Span is deployed via [Netlify](https://www.netlify.com/).
+- Type "npm install" (excluding double-quotes) to install all the dependencies. 
+- Then type "npm start" (excluding double-quotes) to run the application.
